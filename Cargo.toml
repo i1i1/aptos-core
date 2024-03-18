@@ -746,6 +746,9 @@ debug-assertions = true
 [profile.bench]
 debug = true
 
+[patch."https://github.com/aptos-labs/aptos-core"]
+aptos-protos = { git = "https://github.com/i1i1/aptos-core", branch = "aptos-cli-v2.3.2-protos" }
+
 [patch.crates-io]
 serde-reflection = { git = "https://github.com/aptos-labs/serde-reflection", rev = "839aed62a20ddccf043c08961cfe74875741ccba" }
 merlin = { git = "https://github.com/aptos-labs/merlin" }
